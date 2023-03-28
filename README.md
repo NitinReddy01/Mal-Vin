@@ -37,7 +37,9 @@ Follow the below steps to run the app on your local server.
 ```
 4.Create a folder with name `images` in server folder to store uplodaded images.
 
-5.Run the command `node or nodemon index.js` in server and `npm start` in client to run on your local browser.
+5.Add your mongodb url in database connect.js file.
+
+6.Run the command `node or nodemon index.js` in server and `npm start` in client to run on your local browser.
 
 
     
