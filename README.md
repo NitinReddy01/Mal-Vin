@@ -27,7 +27,7 @@ Follow the below steps to run the app on your local server.
 ```bash
   git clone https://github.com/NitinReddy01/Mal-Vin.git
 ```
-2.Run command `npm install` to install all the packages.
+2.Run command `npm install` to install all the packages in both client ans server.
 
 3.You need to install following modules in your local system using pip
 ```bash
@@ -35,16 +35,10 @@ Follow the below steps to run the app on your local server.
   pip install numpy
   pip install pillow
 ```
-4.Install mongoose and multer using the following commands
-```bash
-  npm i multer
-  npm i mongoose
-```
-5.Create a folder with name `images` in statics folder to store uplodaded images.
+4.Create a folder with name `images` in server folder to store uplodaded images.
 
-6.Run the command `node index.js` to run on your local browser.
+5.Run the command `node or nodemon index.js` in server and `npm start` in client to run on your local browser.
 
-**Note:** increase the timer in setTimeout in control.js file if it is redirecting to upload page while detecting. 
 
     
 ## Contact

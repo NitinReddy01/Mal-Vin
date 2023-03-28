@@ -4,7 +4,8 @@ import tensorflow as tf
 import numpy as np
 
 loaded_model=tf.keras.models.load_model('resnet50other.h5')
-img=Image.open('static/images/'+sys.argv[1])
+img=Image.open('images/'+sys.argv[1])
+# img=Image.open('images/favicon.png');
 if(img.size!=(224,224)):
     img=img.resize((224,224))
 im1=np.asarray(img)
